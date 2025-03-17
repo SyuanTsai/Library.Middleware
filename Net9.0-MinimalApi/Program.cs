@@ -1,4 +1,5 @@
 using Library.DemoService;
+using Library.Middleware;
 using Net9._0_MinimalApi;
 using Serilog;
 
@@ -11,17 +12,15 @@ builder.Services.AddOpenApi();
 builder.Services.AddSingleton<IItemService, ItemService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddMiddleware();
 
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 app.MapOpenApi();
 app.UseSwagger();
 app.UseSwaggerUI();
-
 app.UseHttpsRedirection();
-var itemService = app.Services.GetRequiredService<IItemService>();
-app.RegisterItemEndpoints(itemService);
-
+app.RegisterItemEndpoints();
+app.UseMiddleware();
 app.Run();
