@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Middleware.UnitTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net9.0-MinimalApi", "Net9.0-MinimalApi\Net9.0-MinimalApi.csproj", "{7FB8208A-5231-45C3-8DAE-F905B35F547F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net9.0-WebApi", "Net9.0-WebApi\Net9.0-WebApi.csproj", "{650561D8-43E1-46D6-BF0B-46022BFC62A6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.DemoService", "Library.DemoService\Library.DemoService.csproj", "{87CAD64F-F142-4106-BA2A-F3AABDB3D56D}"
 EndProject
 Global
@@ -22,5 +24,17 @@ Global
 		{108FE446-9A9B-4E95-8E8E-841C44B4FD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108FE446-9A9B-4E95-8E8E-841C44B4FD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108FE446-9A9B-4E95-8E8E-841C44B4FD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB8208A-5231-45C3-8DAE-F905B35F547F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB8208A-5231-45C3-8DAE-F905B35F547F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB8208A-5231-45C3-8DAE-F905B35F547F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB8208A-5231-45C3-8DAE-F905B35F547F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650561D8-43E1-46D6-BF0B-46022BFC62A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650561D8-43E1-46D6-BF0B-46022BFC62A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650561D8-43E1-46D6-BF0B-46022BFC62A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650561D8-43E1-46D6-BF0B-46022BFC62A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CAD64F-F142-4106-BA2A-F3AABDB3D56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CAD64F-F142-4106-BA2A-F3AABDB3D56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CAD64F-F142-4106-BA2A-F3AABDB3D56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CAD64F-F142-4106-BA2A-F3AABDB3D56D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

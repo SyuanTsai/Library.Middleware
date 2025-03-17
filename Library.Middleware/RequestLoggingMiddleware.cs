@@ -39,7 +39,7 @@ public partial class RequestLoggingMiddleware
             // 取得 Query Parameters
             string queryParameters = context.Request.QueryString.ToString();
 
-            string? routeTemplate = context.Items.TryGetValue("RouteTemplate", out object? item) ? item.ToString() : "";
+            string? routeTemplate = context.Items.TryGetValue("RouteTemplate", out object? item) ? item?.ToString() : "";
 		
 
             _logger?.LogInformation(
