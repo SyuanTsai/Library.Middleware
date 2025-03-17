@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Middleware", "Libra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Middleware.UnitTest", "Library.Middleware.UnitTest\Library.Middleware.UnitTest.csproj", "{108FE446-9A9B-4E95-8E8E-841C44B4FD4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net9.0-MinimalApi", "Net9.0-MinimalApi\Net9.0-MinimalApi.csproj", "{7FB8208A-5231-45C3-8DAE-F905B35F547F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.DemoService", "Library.DemoService\Library.DemoService.csproj", "{87CAD64F-F142-4106-BA2A-F3AABDB3D56D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
