@@ -4,9 +4,11 @@ Review date: 2026-09-05
 Reviewed ref: main
 Reviewed commit: 37fded7df5c77e49aa77ec967269c8edc1a2559a
 
-The reviewed tree contains three .NET application/library areas, a test
-project, solution and project files, and package references. No vendored
-third-party source tree was found in the reviewed tree.
+The reviewed tree contains four non-test .NET application/library areas:
+Library.Middleware, Library.DemoService, Net9.0-MinimalApi, and
+Net9.0-WebApi. It also contains a test project, solution and project files,
+and package references. No vendored third-party source tree was found in the
+reviewed tree.
 
 The commit history contains more than one Git author identity. That metadata
 records how commits were authored; it does not by itself establish the
